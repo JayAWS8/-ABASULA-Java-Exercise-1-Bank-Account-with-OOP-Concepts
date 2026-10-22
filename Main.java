@@ -1,4 +1,12 @@
+/**
+ * Demonstrates deposits, withdrawals, and freeze controls on a savings account.
+ */
 public class Main {
+  /**
+   * Runs the bank account demonstration with valid and invalid transactions.
+   *
+   * @param args command-line arguments (not used)
+   */
   public static void main(String[] args) {
     BankAccount acc1 = new SavingsAccount("Test0");
     System.out.println(
